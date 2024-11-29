@@ -25,7 +25,6 @@
   background-color: black;
   height: 5000px;
   display: flex;
-
 }
 .country {
   display: flex;
@@ -64,18 +63,19 @@
   color: white;
   margin-top: 20px;
   margin-bottom: 20px;
-  font-weight: 300;
+  font-weight: 500;
 }
 .left-side h3 {
+  font-size: 24px;
   font-family: Poppins;
   color: rgb(198, 196, 196);
-  margin-bottom: 50px;
-  width: 500px;
+  margin-bottom: 40px;
+  width: 700px;
 }
 .left-side span {
   font-family: Poppins;
   color: white;
-  font-weight: 1000;
+  font-weight: 600;
 }
 
 /* BUTTON */
@@ -91,17 +91,17 @@
   border-radius: 200px;
   border: none;
   width: 200px;
-  height: 80px;
+  height: 65px;
 }
 .white p {
-  margin-top: 30px;
+  margin-top: 20px;
   color: rgb(0, 0, 0);
   font-family: Poppins;
   font-size: 18px;
   font-weight: 600;
 }
 .white img {
-  margin-top: 30px;
+  margin-top: 20px;
   margin-right: 10px;
 }
 
@@ -112,21 +112,20 @@
   background-color: rgba(161, 159, 159, 1);
   border-radius: 200px;
   border: none;
-  width: 250px;
-  height: 80px;
+  width: 240px;
+  height: 65px;
   margin-bottom: 170px;
 }
 .black p {
-  margin-top: 30px;
+  margin-top: 20px;
   color: rgb(255, 255, 255);
   font-family: Poppins;
-  font-size: 20px;
-  font-weight: 500;
+  font-size: 18px;
+  font-weight: 600;
 }
 .black img {
-  margin-top: 30px;
+  margin-top: 18px;
   margin-right: 10px;
-  
 }
 
 /* SHIELD DONE */
@@ -135,12 +134,11 @@
   align-items: center;
 }
 .shield-done h1 {
-  font-size: 15px;
+  font-size: 14px;
   margin-left: 15px;
-  
 }
 .shield-done img {
-  width:20px;
+  width: 20px;
   height: 20px;
 }
 
@@ -159,3 +157,81 @@
   padding-left: 10px;
 }
 
+/* RIGHT SIDEEEEEEEEEEEEEEEEEEEEEEEEEEEEE */
+.right-side p {
+  color: rgba(222, 219, 219, 1);
+  font-size: f;
+  font-family: Poppins;
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+.right-side img {
+  height: 659px;
+  width: 800px;
+  margin-left: -100px;
+  margin-top: 100px;
+}
+.lower-button {
+  display: flex;
+  margin-left: 50px;
+}
+.lower-button h1 {
+  color: white;
+  margin-top: 90px;
+  margin-left: px;
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 20px;
+  margin-right: 15px;
+}
+.button-selling {
+  background-color: rgba(253, 102, 67, 1);
+  color: white;
+  border: none;
+  border-radius: 200px;
+  height: 40px;
+  width: 86px;
+  font-size: 16px;
+  font-family: Poppins;
+  font-weight: 500;
+  margin-top: 85px;
+  margin-left: px;
+  margin-bottom: 20px;
+}
+
+/* TOTALLLLLLLLLLLL */
+.total {
+  display: flex;
+  flex-direction: row;
+  
+}
+.total-1 p {
+  margin-left: 0px;
+  margin-top: -10px;
+}
+
+.total-1 {
+  color: white;
+  font-family: Poppins;
+  margin-left: 50px;
+}
+.total-2 p {
+  margin-left: 0px;
+  margin-top: -10px;
+}
+
+.total-2 {
+  color: white;
+  font-family: Poppins;
+  margin-left: 50px;
+}
+.total-3 p {
+  margin-left: 0px;
+  margin-top: -10px;
+}
+
+.total-3 {
+  color: white;
+  font-family: Poppins;
+  margin-left: 50px;
+}
